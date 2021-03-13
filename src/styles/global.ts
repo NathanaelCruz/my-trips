@@ -1,6 +1,20 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+
+  :root{
+    --highlight: #e20c8d;
+    --background: #030518;
+    --white: #eeeeee;
+
+    --max-container: 100rem;
+
+    --small: 1.5rem;
+    --medium: 3rem;
+    --larger: 5rem;
+  }
+
+
   *{
     margin: 0;
     padding: 0;
@@ -18,7 +32,18 @@ const GlobalStyles = createGlobalStyle`
   html,
   body,
   #__next{
+    background-color: var(--background);
+    color: var(--white);
     height: 100%;
+  }
+
+  p, a{
+    font-size: 2rem;
+    line-height: var(--medium);
+  }
+
+  a{
+    color: var(--highlight);
   }
 `
 
