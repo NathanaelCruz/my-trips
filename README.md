@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MY TRIPS
 
-## Getting Started
+<section data-markdown>
+  
+  ![Screen 01](https://github.com/NathanaelCruz/images_resource_projects/blob/master/Images/screen_mytrips01.png)
+  
+</section>
 
-First, run the development server:
+## MOTIVAÇÃO
+  O My Trips é um projeto feito durante o curso de Aprendendo NextJS na prática, com intuito de destacar os lugares que deseja ir. Durante o desenvolvimento foi aplicado o boilerplate criado pelo curso e os conhecimentos a respeito de GraphQL, Leaflet e demais tecnologias para a produço do resultado final. Todo integrado com o Graphcms que fornece um sistema de CMS muito bom para utilizaço gratuita. O projeto está disponvel na [Vercel - My Trips](https://my-trips-one.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## TECNOLOGIAS UTILIZADAS
+  1. NextJS
+  2. Jest
+  3. Testing Library
+  4. Typescript
+  5. NProgress
+  6. Husky
+  7. Leaflet + MapBox
+  8. GraphQL
+  9. Graphcms
+  10. Styled Components
+  11. Next SEO
+  12. ESlint
+  13. Prettier
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## COMO UTILIZAR?
+  A utilização é com o NPM, porém pode ser utilizado o Yarn, porém precisa configurar o `Package.json` e na linha final do `./husky/pre-commit`
+  1. Inicialmente faça o clone desse repositório.
+  2. Assim que baixar, use o `npm i` para instalar as depêndencias
+  3. Ele irá rodar no [localhost](http://localhost:3000)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Desenvolvido **2021**
